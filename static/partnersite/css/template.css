@@ -1621,7 +1621,7 @@ body.mobile .body-wrapper {
 
 .mobile-menu-box .slicknav_menu a.slicknav_btn:before {
     content: '\ec2f';
-    font-family: linearicons;
+    font-family: 'Linearicons';
     font-size: 16px;
     padding-right: 10px
 }
@@ -11688,7 +11688,7 @@ body.view-category #sp-main-body .sp-component {
 #sp-footer {
     color: #8d9297;
     font-size: 14px;
-    padding: 70px 0 55px
+    padding: 34px 0 1px
 }
 
 @media(max-width: 991px) {

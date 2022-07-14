@@ -538,209 +538,125 @@
             <div class="body-innerwrapper">
                 <div class="mobile-menu-box">
                     <div class="slicknav_menu">
-                        <a href="#" aria-haspopup="true" role="button" tabindex="0" class="slicknav_btn slicknav_collapsed" style="outline: none;">
-                            <span class="slicknav_menutxt">Home</span>
-                            <span class="slicknav_icon">
-                                <span class="slicknav_icon-bar"></span>
-                                <span class="slicknav_icon-bar"></span>
-                                <span class="slicknav_icon-bar"></span>
-                            </span>
-                        </a>
                         <div class="menu-wrapper">
                             <ul class="slicknav_nav slicknav_hidden" style="display: none;" aria-hidden="true" role="menu">
                                 <li class="sp-menu-item sp-has-child current-item active">
-                                    <a class="fullwidth" href="#" role="menuitem" tabindex="-1">Home</a>
+                                    <a class="fullwidth" href="{% url 'home' %}" role="menuitem" tabindex="-1">Home
                                     <span class="fa icon collapsed close"></span>
                                         <div class="sp-dropdown sp-dropdown-main sp-menu-right" style="width: 240px; display: none;">
-                                                                <div class="sp-dropdown-inner">
-                                                                    <ul class="sp-dropdown-items">
-                                                                        <li class="sp-menu-item">
-                                                                            <a href="{% url 'about_us' %}" role="menuitem" tabindex="-1">About Us</a>
-                                                                        </li>
-                                                                    </ul>
-                                                                </div>
-                                                            </div>
-                                                        </li>
-                                                        <li class="sp-menu-item sp-has-child">
-                                                            <a href="{% url 'company_info' %}" role="menuitem" tabindex="-1">Company Information</a><span class="fa icon close"></span>
-                                                            <div class="sp-dropdown sp-dropdown-main sp-menu-right" style="width: 240px; display: none;">
-                                                                <div class="sp-dropdown-inner">
-                                                                    <ul class="sp-dropdown-items">
-                                                                        <li class="sp-meWnu-item">
-                                                                            <a href="{% url 'msg_from_top_management' %}" role="menuitem" tabindex="-1">Message from Top Management</a>
-                                                                        </li>
-                                                                        <li class="sp-menu-item">
-                                                                            <a href="{% url 'management_philosophy' %}=" role="menuitem" tabindex="-1">Management philosophy</a>
-                                                                        </li>
-                                                                        <li class="sp-menu-item">
-                                                                            <a href="{% url 'corporate_profile' %}" role="menuitem" tabindex="-1">Corporate Profile</a>
-                                                                        </li>
-                                                                        <li class="sp-menu-item">
-                                                                            <a href="{% url 'about_our_business' %}" role="menuitem" tabindex="-1">About Our Business</a>
-                                                                        </li>
-                                                                        <li class="sp-menu-item">
-                                                                            <a href="{% url 'organization' %}" role="menuitem" tabindex="-1">Organization</a>
-                                                                        </li>
-                                                                        <li class="sp-menu-item">
-                                                                            <a href="{% url 'global_network' %}" role="menuitem" tabindex="-1">Global Network</a>
-                                                                        </li>
-                                                                        <li class="sp-menu-item">
-                                                                            <a href="{% url 'our_team' %}" role="menuitem" tabindex="-1">Our team</a>
-                                                                        </li>
-                                                                    </ul>
-                                                                </div>
-                                                            </div>
-                                                        </li>
-                                                        <li class="sp-menu-item sp-has-child">
-                                                            <a class="gallery" href="{% url 'products' %}" role="menuitem" tabindex="-1">Products</a><span class="fa icon close"></span>
-                                                            <div class="sp-dropdown sp-dropdown-main sp-menu-right" style="width: 240px; display: none;">
-                                                                <div class="sp-dropdown-inner">
-                                                                    <ul class="sp-dropdown-items">
-                                                                        <li class="sp-menu-item">
-                                                                            <a href="{% url 'material_industry' %}" role="menuitem" tabindex="-1">Material Industry
-                                      </a>
-                                                                        </li>
-                                                                        <li class="sp-menu-item">
-                                                                            <a href="{% url 'daily_food_industry' %}" role="menuitem" tabindex="-1">Daily Food Industry
-                                      </a>
-                                                                        </li>
-                                                                        <li class="sp-menu-item">
-                                                                            <a href="{% url 'automotive_and_commercial' %}" role="menuitem" tabindex="-1">Automotive and Commercial
-                                      </a>
-                                                                        </li>
-                                                                        <li class="sp-menu-item">
-                                                                            <a href="{% url 'medical' %}" role="menuitem" tabindex="-1">Medical
-                                      </a>
-                                                                        </li>
-                                                                        <li class="sp-menu-item">
-                                                                            <a href="{% url 'consulting' %}" role="menuitem" tabindex="-1">Consulting
-                                      </a>
-                                                                        </li>
-                                                                        <li class="sp-menu-item">
-                                                                            <a href="{% url 'dx' %}" role="menuitem" tabindex="-1">DX
-                                      </a>
-                                                                        </li>
-                                                                    </ul>
-                                                                </div>
-                                                            </div>
-                                                        </li>
-                                                        <li class="sp-menu-item sp-has-child">
-                                                            <a href="{% url 'careers' %}" role="menuitem" tabindex="-1">Careers</a><span class="fa icon close"></span>
-                                                            <div class="sp-dropdown sp-dropdown-main sp-menu-right" style="width: 240px; display: none;">
-                                                                <div class="sp-dropdown-inner">
-                                                                    <ul class="sp-dropdown-items">
-                                                                        <li class="sp-menu-item">
-                                                                            <a href="{% url 'japan' %}" role="menuitem" tabindex="-1">Japan</a>
-                                                                        </li>
-                                                                        <li class="sp-menu-item">
-                                                                            <a href="{% url 'overseas' %}" role="menuitem" tabindex="-1">Overseas</a>
-                                                                        </li>
-                                                                        <li class="sp-menu-item">
-                                                                            <a href="{% url 'apply_now' %}" role="menuitem" tabindex="-1">Apply Now</a>
-                                                                        </li>
-                                                                    </ul>
-                                                                </div>
-                                                            </div>
-                                                        </li>
-                                                        <li class="sp-menu-item sp-has-child">
-                                                            <a href="{% url 'contact' %}" role="menuitem" tabindex="-1">Contacts</a><span class="fa icon close"></span>
-                                                        </li>
-                                <li class="sp-menu-item current-item active">
-                                    <a class="fullwidth" href="#" role="menuitem" tabindex="-1">Home</a>
+                                            <div class="sp-dropdown-inner">
+                                                 <ul class="sp-dropdown-items">
+                                                    <li class="sp-menu-item">
+                                                        <a href="{% url 'about_us' %}" role="menuitem" tabindex="-1">About Us</a>
+                                                    </li>
+                                                </ul>
+                                             </div>
+                                        </div>
+                                    </a>
                                 </li>
                                 <li class="sp-menu-item sp-has-child">
-                                    <a href="#" role="menuitem" tabindex="-1">Pages</a><span class="fa icon"></span>
+                                    <a href="{% url 'company_info' %}" role="menuitem" tabindex="-1">Company Information</a>
                                     <span class="fa icon close"></span>
-                                    <div class="sp-dropdown sp-dropdown-main sp-menu-right" style="width: 240px; display: none">
-                                        <div class="sp-dropdown-inner">
-                                            <ul class="sp-dropdown-items">
-                                                <li class="sp-menu-item">
-                                                    <a href="" role="menuitem" tabindex="-1">FAQs</a>
-                                                </li>
-                                                <li class="sp-menu-item">
-                                                    <a href="" role="menuitem" tabindex="-1">Our team</a>
-                                                </li>
-                                                <li class="sp-menu-item">
-                                                    <a href="" role="menuitem" tabindex="-1">Single Team</a>
-                                                </li>
-                                                <li class="sp-menu-item">
-                                                    <a href="" role="menuitem" tabindex="-1">History</a>
-                                                </li>
-                                                <li class="sp-menu-item">
-                                                    <a href="" role="menuitem" tabindex="-1">Testimonials</a>
-                                                </li>
-                                                <li class="sp-menu-item">
-                                                    <a href="" role="menuitem" tabindex="-1">Forum</a>
-                                                </li>
-                                                <li class="sp-menu-item">
-                                                    <a href="" role="menuitem" tabindex="-1">Partners</a>
-                                                </li>
-                                                <li class="sp-menu-item">
-                                                    <a href="" role="menuitem" tabindex="-1">Careers</a>
-                                                </li>
-                                                <li class="sp-menu-item">
-                                                    <a href="" role="menuitem" tabindex="-1">Portfolio</a>
-                                                </li>
-                                                <li class="sp-menu-item sp-has-child">
-                                                    <a href="" role="menuitem" tabindex="-1">Elements</a><span class="fa icon"></span>
-                                                    <span class="fa icon close"></span>
-                                                    <div class="sp-dropdown sp-dropdown-sub sp-menu-right" style="width: 240px; display: none">
-                                                        <div class="sp-dropdown-inner">
-                                                            <ul class="sp-dropdown-items">
-                                                                <li class="sp-menu-item">
-                                                                    <a href="" role="menuitem" tabindex="-1">Pricing</a>
-                                                                </li>
-                                                                <li class="sp-menu-item">
-                                                                    <a href="" role="menuitem" tabindex="-1">Template settings</a>
-                                                                </li>
-                                                            </ul>
-                                                        </div>
-                                                    </div>
-                                                </li>
-                                                <li class="sp-menu-item">
-                                                    <a href="" role="menuitem" tabindex="-1">404 page</a>
-                                                </li>
-                                                <li class="sp-menu-item">
-                                                    <a href="" role="menuitem" tabindex="-1">Coming soon</a>
-                                                </li>
-                                            </ul>
+                                        <div class="sp-dropdown sp-dropdown-main sp-menu-right" style="width: 240px; display: none;">
+                                            <div class="sp-dropdown-inner">
+                                                <ul class="sp-dropdown-items">
+                                                    <li class="sp-meWnu-item">
+                                                        <a href="{% url 'msg_from_top_management' %}" role="menuitem" tabindex="-1">Message from Top Management</a>
+                                                    </li>
+                                                    <li class="sp-menu-item">
+                                                        <a href="{% url 'management_philosophy' %}" role="menuitem" tabindex="-1">Management philosophy</a>
+                                                    </li>
+                                                    <li class="sp-menu-item">
+                                                        <a href="{% url 'corporate_profile' %}" role="menuitem" tabindex="-1">Corporate Profile</a>
+                                                    </li>
+                                                    <li class="sp-menu-item">
+                                                        <a href="{% url 'about_our_business' %}" role="menuitem" tabindex="-1">About Our Business</a>
+                                                    </li>
+                                                    <li class="sp-menu-item">
+                                                        <a href="{% url 'organization' %}" role="menuitem" tabindex="-1">Organization</a>
+                                                    </li>
+                                                    <li class="sp-menu-item">
+                                                        <a href="{% url 'global_network' %}" role="menuitem" tabindex="-1">Global Network</a>
+                                                    </li>
+                                                    <li class="sp-menu-item">
+                                                        <a href="{% url 'our_team' %}" role="menuitem" tabindex="-1">Our team</a>
+                                                    </li>
+                                                </ul>
+                                            </div>
                                         </div>
-                                    </div>
+                                </li>
+                                <li class="sp-menu-item sp-has-child">
+                                    <a href="{% url 'products' %}" role="menuitem" tabindex="-1">Products</a>
+                                    <span class="fa icon close"></span>
+                                        <div class="sp-dropdown sp-dropdown-main sp-menu-right" style="width: 240px; display: none;">
+                                            <div class="sp-dropdown-inner">
+                                                <ul class="sp-dropdown-items">
+                                                    <li class="sp-menu-item">
+                                                        <a href="{% url 'material_industry' %}" role="menuitem" tabindex="-1">Material Industry</a>
+                                                    </li>
+                                                    <li class="sp-menu-item">
+                                                        <a href="{% url 'daily_food_industry' %}" role="menuitem" tabindex="-1">Daily Food Industry </a>
+                                                    </li>
+                                                    <li class="sp-menu-item">
+                                                        <a href="{% url 'automotive_and_commercial' %}" role="menuitem" tabindex="-1">Automotive and Commercial</a>
+                                                    </li>
+                                                    <li class="sp-menu-item">
+                                                        <a href="{% url 'medical' %}" role="menuitem" tabindex="-1">Medical</a>
+                                                    </li>
+                                                    <li class="sp-menu-item">
+                                                        <a href="{% url 'consulting' %}" role="menuitem" tabindex="-1">Consulting</a>
+                                                    </li>
+                                                    <li class="sp-menu-item">
+                                                        <a href="{% url 'dx' %}" role="menuitem" tabindex="-1">DX</a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                </li>
+                                <li class="sp-menu-item sp-has-child">
+                                    <a href="{% url 'careers' %}" role="menuitem" tabindex="-1">Careers</a>
+                                    <span class="fa icon close"></span>
+                                        <div class="sp-dropdown sp-dropdown-main sp-menu-right" style="width: 240px; display: none;">
+                                            <div class="sp-dropdown-inner">
+                                                <ul class="sp-dropdown-items">
+                                                    <li class="sp-menu-item">
+                                                        <a href="{% url 'japan' %}" role="menuitem" tabindex="-1">Japan</a>
+                                                    </li>
+                                                    <li class="sp-menu-item">
+                                                        <a href="{% url 'overseas' %}" role="menuitem" tabindex="-1">Overseas</a>
+                                                    </li>
+                                                    <li class="sp-menu-item">
+                                                        <a href="{% url 'apply_now' %}" role="menuitem" tabindex="-1">Apply Now</a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
                                 </li>
                                 <li class="sp-menu-item">
-                                    <a class="gallery" href="" role="menuitem" tabindex="-1">Gallery</a>
+                                    <a href="{% url 'contact' %}" role="menuitem" tabindex="-1">Contacts</a>
                                 </li>
                                 <li class="sp-menu-item">
-                                    <a href="" role="menuitem" tabindex="-1">Blog</a>
+                                    <a href="{% url 'home' %}" role="menuitem" tabindex="-1">En</a>
                                 </li>
                                 <li class="sp-menu-item">
-                                    <a href="" role="menuitem" tabindex="-1">Contacts</a>
+                                    <a href="{% url 'home_' %}" role="menuitem" tabindex="-1">Jp</a>
                                 </li>
-                            </ul></div></div>
-                    <div class="slicknav_menu">
-                        <a href="{% url 'home' %}" aria-haspopup="true" role="button" tabindex="0" class="slicknav_btn slicknav_collapsed" style="outline: none;">
-                            <span class="slicknav_menutxt">Home</span>
-                            <span class="slicknav_icon">
-                                <span class="slicknav_icon-bar"></span>
-                                <span class="slicknav_icon-bar"></span>
-                                <span class="slicknav_icon-bar"></span>
-                            </span>
-                        </a>
-                        <div class="menu-wrapper">
+                            </ul>
                         </div>
                     </div>
-                    <div class="mobile-menu-title" data-title="Home"></div>
-                </div>
+                    <div class="mobile-menu-title" data-title="Home">
+                    </div>    
+                </div>        
                 <header id="sp-header">
                     <div class="sticky-wrapper" style="height: 169px">
-                        <div class="header-box header-sticky">
+                        <div class="header-box">
                             <div class="container">
                                 <div class="container-inner">
                                     <div class="row visible-first" style="position: relative">
                                         <div id="sp-logo" class="col-12 col-lg-12 col-md-12 col-xl-3">
                                             <div class="sp-column">
                                                 <div class="logo">
-                                                    <a href="{% url 'home' %}">
+                                                    <a href=" ">
                                                         <img class="logo-image" src="/static/partnersite/images/logo.png" alt="Partner">
                                                     </a>
                                                 </div>
@@ -749,7 +665,7 @@
                                         <div id="sp-menu" class="col-12 col-lg-12 col-md-12 col-xl-9" style="position: static">
                                             <div class="sp-column">
                                                 <nav class="sp-megamenu-wrapper" role="navigation">
-                                                    <ul class="sp-megamenu-parent menu-animation-fade-up d-none d-md-block" style="width: 970px;">
+                                                    <ul class="sp-megamenu-parent menu-animation-fade-up d-none d-md-block" style=>
                                                         <li class="sp-menu-item sp-has-child current-item active">
                                                             <a class="fullwidth" href="{% url 'home' %}">Home</a>
                                                             <div class=" sp-dropdown sp-dropdown-main sp-menu-right" style="width: 240px">
@@ -793,33 +709,27 @@
                                                             </div>
                                                         </li>
                                                         <li class="sp-menu-item sp-has-child">
-                                                            <a class="gallery" href="{% url 'products' %}">Products</a>
+                                                            <a href="{% url 'products' %}">Products</a>
                                                             <div class="sp-dropdown sp-dropdown-main sp-menu-right" style="width: 240px">
                                                                 <div class="sp-dropdown-inner">
                                                                     <ul class="sp-dropdown-items">
                                                                         <li class="sp-menu-item">
-                                                                            <a href="{% url 'material_industry' %}">Material Industry
-                                      </a>
+                                                                            <a href="{% url 'material_industry' %}">Material Industry</a>
                                                                         </li>
                                                                         <li class="sp-menu-item">
-                                                                            <a href="{% url 'daily_food_industry' %}">Daily Food Industry
-                                      </a>
+                                                                            <a href="{% url 'daily_food_industry' %}">Daily Food Industry</a>
                                                                         </li>
                                                                         <li class="sp-menu-item">
-                                                                            <a href="{% url 'automotive_and_commercial' %}">Automotive and Commercial
-                                      </a>
+                                                                            <a href="{% url 'automotive_and_commercial' %}">Automotive and Commercial</a>
                                                                         </li>
                                                                         <li class="sp-menu-item">
-                                                                            <a href="{% url 'medical' %}">Medical
-                                      </a>
+                                                                            <a href="{% url 'medical' %}">Medical</a>
                                                                         </li>
                                                                         <li class="sp-menu-item">
-                                                                            <a href="{% url 'consulting' %}">Consulting
-                                      </a>
+                                                                            <a href="{% url 'consulting' %}">Consulting</a>
                                                                         </li>
                                                                         <li class="sp-menu-item">
-                                                                            <a href="{% url 'dx' %}">DX
-                                      </a>
+                                                                            <a href="{% url 'dx' %}">DX</a>
                                                                         </li>
                                                                     </ul>
                                                                 </div>
@@ -831,7 +741,7 @@
                                                                 <div class="sp-dropdown-inner">
                                                                     <ul class="sp-dropdown-items">
                                                                         <li class="sp-menu-item">
-                                                                            <a href="{% url 'japan' %}=">Japan</a>
+                                                                            <a href="{% url 'japan' %}">Japan</a>
                                                                         </li>
                                                                         <li class="sp-menu-item">
                                                                             <a href="{% url 'overseas' %}">Overseas</a>
@@ -848,12 +758,11 @@
                                                         </li>
                                                         <li class="sp-menu-item">
                                                             <a href="{% url 'home' %}">En</a>
-                                                            <img class="logo-image" src="/static/partnersite/images/united-states.png" alt = >
                                                         </li>
                                                         <li class="sp-menu-item">
-                                                            <a href="{% url 'home_' %}">日本語</a>
-                                                            <img class="logo-image" src="/static/partnersite/images/japan.png" alt = >
+                                                            <a href="{% url 'home_' %}">Jp</a>
                                                         </li>
+                                                    </ul>
                                                 </nav>
                                             </div>
                                         </div>
@@ -863,12 +772,8 @@
                         </div>
                     </div>
                     <div class="container">
-                    <div class="container-inner"></div>
-                    </div>
-                            </form>
-                         </div>
-                    </div>   
-                    </header>
+                        <div class="container-inner"></div>
+                </header>
                     <!-- Header Area End--> 
 
 
