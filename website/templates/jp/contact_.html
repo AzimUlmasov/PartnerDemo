@@ -634,11 +634,10 @@
                                 <span class="item_title_part_3 item_title_part_even item_title_part_second_half item_title_part_last">Message</span>
                             </h2>
                             <div class="sp-module-content">
-                                <form action="{% url 'contact' %}" method="post">
-                                {% csrf_token %}
                                  <div id="contact_115">
+                                    <form onsubmit="sendEmail(); reset(); return false;">
                                     <!--Form-->
-                                    <form class="mod_tm_ajax_contact_form mod_tm_ajax_contact_form_contact-form no-edit" id="contact-form_115" nova lidate="novalidate">
+                                      <form class="mod_tm_ajax_contact_form mod_tm_ajax_contact_form_contact-form no-edit" id="contact-form_115" nova lidate="novalidate">
                                         <input type="hidden" id="module_id" name="module_id" value="115">
                                         <div class="mod_tm_ajax_contact_form_message" id="message_115">
                                             <span class="s">Thank You! Your message has been sent.</span>
@@ -708,6 +707,22 @@
             </div>
         </div>
     </div>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script>
+        function sendEmail(){
+            Email.send({
+                Host : "smtp.gmail.com",
+                Username : "azimulmasov2@gmail.com",
+                Password : "Azim13062021#@",
+                To : 'ztech1995@gmail.com',
+                From : document.getElementById("email").value,
+                Subject : "New Contact Fornm Enquiry",
+                Body : "And this is the body"
+            }).then(
+            message => alert(message)
+            );
+        }
+    </script>
 </section>
 <body>
     <center>

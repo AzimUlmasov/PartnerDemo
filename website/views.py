@@ -157,30 +157,30 @@ def apply_now_(request):
     return render(request, 'jp/apply_now_.html', {})          
 
 def contact_(request):
-    if request.method == "POST":
-        your_name = request.POST ['your-name']
-        your_email = request.POST ['your-name']
-        your_phone = request.POST ['your-name']
-        your_subject = request.POST ['your-name']
-        your_message = request.POST ['your-name'] 
+    #if request.method == "POST":
+        #your_name = request.POST ['your-name']
+        #your_email = request.POST ['your-name']
+        #your_phone = request.POST ['your-name']
+        #your_subject = request.POST ['your-name']
+        #your_message = request.POST ['your-name'] 
         # send an email
-        '''
-        send_mail(
-            name,  # name
-            email, # from email
-            phone, # phone 
-            subject, # subject
-            message, # message
-            ['azimulmasov2@gmail.com'], # To Email
-            )  
-        '''
-        return render(request, 'jp/contact_.html', {
-            'your_name': your_name,
-            'your_email': your_email,
-            'your_phone': your_phone,
-            'your_subject': your_subject,
-            'your_message': your_message
-            }) 
+        #'''
+        #send_mail(
+            #name,  # name
+            #email, # from email
+            #phone, # phone 
+            #subject, # subject
+            #message, # message
+            #['azimulmasov2@gmail.com'], # To Email
+            #)  
+        #'''
+        #return render(request, 'jp/contact_.html', {
+            #'your_name': your_name,
+            #'your_email': your_email,
+            #'your_phone': your_phone,
+            #'your_subject': your_subject,
+            #'your_message': your_message
+            #}) 
 
-    else:    
-        return render(request, 'jp/contact_.html', {})    
+    #else:    
+    return render(request, 'jp/contact_.html', {})    
