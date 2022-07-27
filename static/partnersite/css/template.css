@@ -11428,6 +11428,19 @@ body.helix-ultimate-preloader:after {
     padding: 8px 0
 }
 
+.logo-image-white {
+    display: none;
+}
+    
+.header-sticky .logo-image-white {
+    display: block;
+}
+    
+.header-sticky .logo-image-black {
+     display: none;
+}
+  
+
 .header-box.header-sticky .sp-megamenu-parent {
     padding: 6px 0
 }
@@ -12279,3 +12292,4 @@ section>.row>* .sp-column .row {
         min-width: 200px
     }
 }
+
