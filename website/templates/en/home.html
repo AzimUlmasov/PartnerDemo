@@ -6,7 +6,7 @@
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <script type="text/javascript" async="" src="{% static 'partnersite/JS/analytics.js' %}"></script>
-        <script async="" src="JS/gtm.js"></script>
+        <script async="" src="{% static 'JS/gtm.js' %}"></script>
         <script src="/static/partnersite/JS/3ts2ksMwXvKRuG480KNifJ2_JNM.js"></script>
         <script src="/static/partnersite/JS/4o300efCt-CXoq1JEC-sVReFz48.js"></script>
         <script src="/static/partnersite/JS/carousel.js"></script>
@@ -653,7 +653,8 @@
                                             <div class="sp-column">
                                                 <div class="logo">
                                                     <a href=" ">
-                                                        <img class="logo-image" src="/static/partnersite/images/logo.png" alt="Partner">
+                                                        <img class="logo-image logo-image-black" src="/static/partnersite/images/logo-1.png" alt="PARTNER">
+                                                        <img class="logo-image logo-image-white" src="/static/partnersite/images/logo-3.png" alt="PARTNER">
                                                     </a>
                                                 </div>
                                             </div>
@@ -752,10 +753,10 @@
                                                         <li class="sp-menu-item">
                                                             <a href="{% url 'contact' %}">Contacts</a>
                                                         </li>
-                                                        <li class="sp-menu-item">
+                                                        <li class="sp-menu-item" style="left: 120px;">
                                                             <a href="{% url 'home' %}">En</a>
                                                         </li>
-                                                        <li class="sp-menu-item">
+                                                        <li class="sp-menu-item" style="left: 120px;" >
                                                             <a href="{% url 'home_' %}">Jp</a>
                                                         </li>
                                                     </ul>
