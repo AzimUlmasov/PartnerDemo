@@ -2811,6 +2811,10 @@
     content: "\f2c6"
 }
 
+.fa-line:before {
+    content: "\f3c0"
+}
+
 .fa-thermometer-4:before,.fa-thermometer:before,.fa-thermometer-full:before {
     content: "\f2c7"
 }

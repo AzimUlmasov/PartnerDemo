@@ -342,7 +342,7 @@ jQuery(document).ready(function($) {
             parentTag: 'a',
             closeOnClick: false,
             nestedParentLinks: false,
-            showChildren: true,
+            showChildren: true, 
             prependTo: '.mobile-menu-box',
             removeClasses: false,
             init: function() {
